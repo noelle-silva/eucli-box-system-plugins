@@ -1,0 +1,31 @@
+{
+  "schemaVersion": 1,
+  "updatedAt": "2026-08-07T18:45:33.6784935Z",
+  "artifacts": [
+    {
+      "kind": "plugin",
+      "id": "weather-plugin",
+      "versions": [
+        {
+          "version": "0.1.0",
+          "publishedAt": "2026-08-01T15:31:24Z",
+          "sourceRevision": "95189feeb3fca09ce0e1963c0d0a0cae4f4dd90e",
+          "compatibility": {
+            "minimumVersion": "0.1.0",
+            "maximumVersionExclusive": "0.2.0"
+          },
+          "releaseNotes": "## 0.1.0 - 2026-07-26\n\n- 建立通过和风天气读取天气资料的系统插件。\n- 提供详细天气和当前天气简报两个占位符接口。\n- 支持城市、密钥、预报范围、预警和空气质量配置。\n- 建立插件独立版本与 eucli-box 适用范围资料。",
+          "packages": [
+            {
+              "platform": "windows-x64",
+              "releaseTag": "weather-plugin/v0.1.0",
+              "fileName": "plugin-weather-plugin_0.1.0_windows-x64.zip",
+              "sizeBytes": 4845320,
+              "sha256": "f42ee3bdfae507127535aec2056bf851fb35f7c769e80cd0dca7250053215892"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
