@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-08-07T18:45:33.6784935Z",
+  "updatedAt": "2026-08-07T18:45:36.3757587Z",
   "artifacts": [
     {
       "kind": "plugin",
@@ -22,6 +22,31 @@
               "fileName": "plugin-weather-plugin_0.1.0_windows-x64.zip",
               "sizeBytes": 4845320,
               "sha256": "f42ee3bdfae507127535aec2056bf851fb35f7c769e80cd0dca7250053215892"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "kind": "plugin",
+      "id": "time-plugin",
+      "versions": [
+        {
+          "version": "0.1.0",
+          "publishedAt": "2026-08-01T15:30:48Z",
+          "sourceRevision": "95189feeb3fca09ce0e1963c0d0a0cae4f4dd90e",
+          "compatibility": {
+            "minimumVersion": "0.1.0",
+            "maximumVersionExclusive": "0.2.0"
+          },
+          "releaseNotes": "## 0.1.0 - 2026-07-26\n\n- 建立按需读取当前时间的系统插件。\n- 支持预设时间格式和时区选择。\n- 提供默认名为 `time` 的占位符接口。\n- 建立插件独立版本与 eucli-box 适用范围资料。",
+          "packages": [
+            {
+              "platform": "windows-x64",
+              "releaseTag": "time-plugin/v0.1.0",
+              "fileName": "plugin-time-plugin_0.1.0_windows-x64.zip",
+              "sizeBytes": 1782745,
+              "sha256": "650e734808fcdd96d52b947f5db13b54cf95642d72d486b8d94baa367b2c5907"
             }
           ]
         }
