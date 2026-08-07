@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-08-07T18:45:36.3757587Z",
+  "updatedAt": "2026-08-07T18:45:39.5042652Z",
   "artifacts": [
     {
       "kind": "plugin",
@@ -47,6 +47,31 @@
               "fileName": "plugin-time-plugin_0.1.0_windows-x64.zip",
               "sizeBytes": 1782745,
               "sha256": "650e734808fcdd96d52b947f5db13b54cf95642d72d486b8d94baa367b2c5907"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "kind": "plugin",
+      "id": "system-info-plugin",
+      "versions": [
+        {
+          "version": "0.1.0",
+          "publishedAt": "2026-08-01T15:30:17Z",
+          "sourceRevision": "95189feeb3fca09ce0e1963c0d0a0cae4f4dd90e",
+          "compatibility": {
+            "minimumVersion": "0.1.0",
+            "maximumVersionExclusive": "0.2.0"
+          },
+          "releaseNotes": "## 0.1.0 - 2026-07-26\n\n- 建立按需读取当前平台和系统信息的系统插件。\n- 支持选择是否包含主机名、用户名和常见环境摘要。\n- 提供默认名为 `system_info` 的占位符接口。\n- 建立插件独立版本与 eucli-box 适用范围资料。",
+          "packages": [
+            {
+              "platform": "windows-x64",
+              "releaseTag": "system-info-plugin/v0.1.0",
+              "fileName": "plugin-system-info-plugin_0.1.0_windows-x64.zip",
+              "sizeBytes": 1775568,
+              "sha256": "4b9d4fbbc1bc06a7076d419bc722b6c4dae5db0b96628c5f87f870ea2d5bf3a5"
             }
           ]
         }
