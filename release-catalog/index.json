@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-08-07T18:45:39.5042652Z",
+  "updatedAt": "2026-08-08T16:44:52.3715005Z",
   "artifacts": [
     {
       "kind": "plugin",
@@ -47,6 +47,25 @@
               "fileName": "plugin-time-plugin_0.1.0_windows-x64.zip",
               "sizeBytes": 1782745,
               "sha256": "650e734808fcdd96d52b947f5db13b54cf95642d72d486b8d94baa367b2c5907"
+            }
+          ]
+        },
+        {
+          "version": "0.1.1",
+          "publishedAt": "2026-08-08T16:44:51.9340035Z",
+          "sourceRevision": "c8545969f3b4449251a9934e3d292b43f994c946",
+          "compatibility": {
+            "minimumVersion": "0.1.0",
+            "maximumVersionExclusive": "0.2.0"
+          },
+          "releaseNotes": "## 0.1.1 - 2026-08-08\n\n- 嵌入标准时区数据库，修复 Windows 上无法加载 IANA 时区（如 Asia/Shanghai）的问题。",
+          "packages": [
+            {
+              "platform": "windows-x64",
+              "releaseTag": "time-plugin/v0.1.1",
+              "fileName": "plugin-time-plugin_0.1.1_windows-x64.zip",
+              "sizeBytes": 1883563,
+              "sha256": "6fe4054082a7f6b27fd9b18996ec846860eecdf2fca4a465c6ba8ab8a99aebb9"
             }
           ]
         }
