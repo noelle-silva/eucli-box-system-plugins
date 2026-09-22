@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-09-22T05:24:46.4339707Z",
+  "updatedAt": "2026-09-22T05:26:16.0367944Z",
   "artifacts": [
     {
       "kind": "plugin",
@@ -129,6 +129,25 @@
               "fileName": "plugin-system-info-plugin_0.1.0_windows-x64.zip",
               "sizeBytes": 1775568,
               "sha256": "4b9d4fbbc1bc06a7076d419bc722b6c4dae5db0b96628c5f87f870ea2d5bf3a5"
+            }
+          ]
+        },
+        {
+          "version": "0.2.1",
+          "publishedAt": "2026-09-22T05:26:15.5139707Z",
+          "sourceRevision": "1ec76f524dadc89b1a3e721ebc202fdc711e7009",
+          "compatibility": {
+            "minimumVersion": "0.1.0",
+            "maximumVersionExclusive": "0.2.0"
+          },
+          "releaseNotes": "## 0.2.1 - 2026-09-22\n\n- 系统插件能力化与协议换代",
+          "packages": [
+            {
+              "platform": "windows-x64",
+              "releaseTag": "system-info-plugin/v0.2.1",
+              "fileName": "plugin-system-info-plugin_0.2.1_windows-x64.zip",
+              "sizeBytes": 1862580,
+              "sha256": "f43678dc75b75ffe4d2e98641c36f3d4b40de5c13d56e755016ce552ad115aaf"
             }
           ]
         }
