@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-08-08T16:44:52.3715005Z",
+  "updatedAt": "2026-09-22T05:23:53.681089Z",
   "artifacts": [
     {
       "kind": "plugin",
@@ -22,6 +22,25 @@
               "fileName": "plugin-weather-plugin_0.1.0_windows-x64.zip",
               "sizeBytes": 4845320,
               "sha256": "f42ee3bdfae507127535aec2056bf851fb35f7c769e80cd0dca7250053215892"
+            }
+          ]
+        },
+        {
+          "version": "0.2.1",
+          "publishedAt": "2026-09-22T05:23:53.2157683Z",
+          "sourceRevision": "1ec76f524dadc89b1a3e721ebc202fdc711e7009",
+          "compatibility": {
+            "minimumVersion": "0.1.0",
+            "maximumVersionExclusive": "0.2.0"
+          },
+          "releaseNotes": "## 0.2.1 - 2026-09-22\n\n- 系统插件能力化与协议换代",
+          "packages": [
+            {
+              "platform": "windows-x64",
+              "releaseTag": "weather-plugin/v0.2.1",
+              "fileName": "plugin-weather-plugin_0.2.1_windows-x64.zip",
+              "sizeBytes": 4865367,
+              "sha256": "459cc42c535b53767fb3da3c945741e663bee46771a4e75ce407015db66ac8fb"
             }
           ]
         }
