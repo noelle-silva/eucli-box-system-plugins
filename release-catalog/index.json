@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-09-30T20:42:31.8542982Z",
+  "updatedAt": "2026-09-30T20:43:07.3934491Z",
   "artifacts": [
     {
       "kind": "plugin",
@@ -41,6 +41,25 @@
               "fileName": "plugin-weather-plugin_0.2.1_windows-x64.zip",
               "sizeBytes": 4865367,
               "sha256": "459cc42c535b53767fb3da3c945741e663bee46771a4e75ce407015db66ac8fb"
+            }
+          ]
+        },
+        {
+          "version": "0.3.0",
+          "publishedAt": "2026-09-30T20:43:06.8830973Z",
+          "sourceRevision": "c175438169a216f34178c100c75c846a1fc0bae7",
+          "compatibility": {
+            "minimumVersion": "0.1.0",
+            "maximumVersionExclusive": "0.2.0"
+          },
+          "releaseNotes": "## 0.3.0 - 2026-10-01\n\n- 接入数据迁移模式：以专门迁移参数单独启动时执行自身数据迁移并输出结果 JSON 与退出码，目标数据版本升至 1.2.0",
+          "packages": [
+            {
+              "platform": "windows-x64",
+              "releaseTag": "weather-plugin/v0.3.0",
+              "fileName": "plugin-weather-plugin_0.3.0_windows-x64.zip",
+              "sizeBytes": 5049531,
+              "sha256": "38d549362666abcc94426151337a5bf2133ee5a8c54cec14d73300cd82cb79e5"
             }
           ]
         }
