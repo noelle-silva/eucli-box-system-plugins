@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-09-22T05:26:16.0367944Z",
+  "updatedAt": "2026-09-30T20:42:03.0555412Z",
   "artifacts": [
     {
       "kind": "plugin",
@@ -148,6 +148,25 @@
               "fileName": "plugin-system-info-plugin_0.2.1_windows-x64.zip",
               "sizeBytes": 1862580,
               "sha256": "f43678dc75b75ffe4d2e98641c36f3d4b40de5c13d56e755016ce552ad115aaf"
+            }
+          ]
+        },
+        {
+          "version": "0.3.0",
+          "publishedAt": "2026-09-30T20:42:02.5194849Z",
+          "sourceRevision": "c175438169a216f34178c100c75c846a1fc0bae7",
+          "compatibility": {
+            "minimumVersion": "0.1.0",
+            "maximumVersionExclusive": "0.2.0"
+          },
+          "releaseNotes": "## 0.3.0 - 2026-10-01\n\n- 接入数据迁移模式：以专门迁移参数单独启动时执行自身数据迁移并输出结果 JSON 与退出码，目标数据版本升至 1.2.0",
+          "packages": [
+            {
+              "platform": "windows-x64",
+              "releaseTag": "system-info-plugin/v0.3.0",
+              "fileName": "plugin-system-info-plugin_0.3.0_windows-x64.zip",
+              "sizeBytes": 2193369,
+              "sha256": "58490d7b3f550b4174a0999a6ca1f307f9b11ef2d8d419154e654cff1eb22272"
             }
           ]
         }
