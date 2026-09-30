@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-09-30T20:42:03.0555412Z",
+  "updatedAt": "2026-09-30T20:42:31.8542982Z",
   "artifacts": [
     {
       "kind": "plugin",
@@ -104,6 +104,25 @@
               "fileName": "plugin-time-plugin_0.2.1_windows-x64.zip",
               "sizeBytes": 1970782,
               "sha256": "7bfa3c7c2f9933e0b416de253989af8ceefd37053cfdfcb5b0b54b55c9e75762"
+            }
+          ]
+        },
+        {
+          "version": "0.3.0",
+          "publishedAt": "2026-09-30T20:42:30.9493994Z",
+          "sourceRevision": "c175438169a216f34178c100c75c846a1fc0bae7",
+          "compatibility": {
+            "minimumVersion": "0.1.0",
+            "maximumVersionExclusive": "0.2.0"
+          },
+          "releaseNotes": "## 0.3.0 - 2026-10-01\n\n- 接入数据迁移模式：以专门迁移参数单独启动时执行自身数据迁移并输出结果 JSON 与退出码，目标数据版本升至 1.2.0",
+          "packages": [
+            {
+              "platform": "windows-x64",
+              "releaseTag": "time-plugin/v0.3.0",
+              "fileName": "plugin-time-plugin_0.3.0_windows-x64.zip",
+              "sizeBytes": 2299514,
+              "sha256": "c906fb54d0573e0980aa6070545baa93ccaa02feb964554638d7e22327fa1079"
             }
           ]
         }
