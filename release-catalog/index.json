@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-10-07T07:25:52.0943922Z",
+  "updatedAt": "2026-10-07T07:26:24.4016521Z",
   "artifacts": [
     {
       "kind": "plugin",
@@ -142,6 +142,25 @@
               "fileName": "plugin-time-plugin_0.3.0_windows-x64.zip",
               "sizeBytes": 2299514,
               "sha256": "c906fb54d0573e0980aa6070545baa93ccaa02feb964554638d7e22327fa1079"
+            }
+          ]
+        },
+        {
+          "version": "0.3.1",
+          "publishedAt": "2026-10-07T07:26:23.730815Z",
+          "sourceRevision": "f3c36446fbdc232a5dbdd8e765907672f6e4b2e2",
+          "compatibility": {
+            "minimumVersion": "0.1.0",
+            "maximumVersionExclusive": "0.2.0"
+          },
+          "releaseNotes": "## 0.3.1 - 2026-10-07\n\n- 系统插件自治改造：脱离宿主依赖、协议与运行契约包自带并按需精简，插件完全自治",
+          "packages": [
+            {
+              "platform": "windows-x64",
+              "releaseTag": "time-plugin/v0.3.1",
+              "fileName": "plugin-time-plugin_0.3.1_windows-x64.zip",
+              "sizeBytes": 2300175,
+              "sha256": "4ee30d409550dc8b41141e64bf34f039532909a18e88aabe6540d0f690dfa814"
             }
           ]
         }
